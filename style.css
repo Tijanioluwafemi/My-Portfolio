@@ -245,6 +245,103 @@ svg:not(:root){
     top: 5px;
     width: 23px;
 }
+
+/*     **/
+
+.skills {
+    font-size: 20px;
+    margin: 45px auto;
+    overflow: hidden;
+}
+.skill_Bar {
+    width: 50%;
+    height: 35px;
+    position: relative;
+    background: #ddd;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.skills_area {
+    font-size: 18px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.percentage {
+    z-index: 3;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+#html {
+    width: 98%;
+    animation: animate-html 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: grey;
+
+}
+@keyframes animate-html {
+    from{width: 0px;}
+    to{width: 98%;}
+}
+
+#js {
+    width: 95%;
+    animation: animate-css 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: grey;
+
+}
+@keyframes animate-css {
+    from{width: 0px;}
+    to{width: 95%;}
+}
+
+#react {
+    width: 70%; 
+    animation: animate-react 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: grey;
+}
+@keyframes animate-react {
+    from{width: 0px;}
+    to{width: 70%;}
+}
+
+#ejs {
+    width: 100%;
+    animation: animate-ejs 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: grey;
+
+}
+@keyframes animate-ejs {
+    from{width: 0px;}
+    to{width: 80%;}
+}
+
+
+/*     **/
+
 .header--cta{
     position: absolute;
     top: 50%;
